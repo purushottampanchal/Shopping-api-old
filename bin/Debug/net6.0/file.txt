@@ -1,0 +1,204 @@
+2023-01-08 23:11:56.2811|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-01-08 23:11:56.4618|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-01-08 23:11:56.6459|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\purushottam_panchal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-08 23:11:56.6540|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\purushottam_panchal\AppData\Local\ASP.NET\DataProtection-Keys\key-5a4045c4-f8cc-4a49-ab26-be2d8fff4ac9.xml'.
+2023-01-08 23:11:56.6689|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\purushottam_panchal\AppData\Local\ASP.NET\DataProtection-Keys\key-95135481-f094-4196-acf9-eaa32be94114.xml'.
+2023-01-08 23:11:56.6689|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\purushottam_panchal\AppData\Local\ASP.NET\DataProtection-Keys\key-a5c20327-050a-4229-98a4-e660502ed209.xml'.
+2023-01-08 23:11:56.6899|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {5a4045c4-f8cc-4a49-ab26-be2d8fff4ac9}.
+2023-01-08 23:11:56.6899|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {95135481-f094-4196-acf9-eaa32be94114}.
+2023-01-08 23:11:56.6899|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {a5c20327-050a-4229-98a4-e660502ed209}.
+2023-01-08 23:11:56.7028|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {a5c20327-050a-4229-98a4-e660502ed209} with expiration date 2023-01-31 04:54:17Z as default key.
+2023-01-08 23:11:56.7028|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-08 23:11:56.7028|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-01-08 23:11:56.7028|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-08 23:11:56.7173|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-01-08 23:11:56.7173|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-01-08 23:11:56.7173|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {a5c20327-050a-4229-98a4-e660502ed209} as the default key.
+2023-01-08 23:11:56.7173|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {a5c20327-050a-4229-98a4-e660502ed209} was loaded during application startup.
+2023-01-08 23:11:57.2896|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 3A1004324A71829377074DD2B0A6E5E060378CEB)
+2023-01-08 23:11:57.4627|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7185
+2023-01-08 23:11:57.4627|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5185
+2023-01-08 23:11:57.4649|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ShoppingApi
+2023-01-08 23:11:57.4649|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-01-08 23:11:57.4649|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-01-08 23:11:57.4649|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-01-08 23:11:57.4649|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-01-08 23:11:57.4649|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\purushottam_panchal\source\repos\ShoppingApi\
+2023-01-08 23:11:57.4649|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-01-08 23:11:57.7805|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJUHTUUM6" accepted.
+2023-01-08 23:11:57.7805|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJUHTUUM6" started.
+2023-01-08 23:11:57.7805|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNHJUHTUUM7" received FIN.
+2023-01-08 23:11:57.7805|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJUHTUUM7" accepted.
+2023-01-08 23:11:57.7805|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJUHTUUM7" started.
+2023-01-08 23:11:57.7805|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNHJUHTUUM6" received FIN.
+2023-01-08 23:11:57.8045|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-08 23:11:57.8046|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-08 23:11:58.0294|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJUHTUUM6" stopped.
+2023-01-08 23:11:58.0294|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJUHTUUM7" stopped.
+2023-01-08 23:11:58.0294|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNHJUHTUUM7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-08 23:11:58.0294|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNHJUHTUUM6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-08 23:11:59.6671|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJUHTUUM8" accepted.
+2023-01-08 23:11:59.6872|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJUHTUUM8" started.
+2023-01-08 23:11:59.8480|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMNHJUHTUUM8 established using the following protocol: Tls13
+2023-01-08 23:11:59.9916|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7185/swagger/index.html - -
+2023-01-08 23:12:00.1431|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-01-08 23:12:00.2077|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-01-08 23:12:00.2077|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-01-08 23:12:00.6733|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-01-08 23:12:01.2794|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-01-08 23:12:01.3161|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7185/swagger/index.html - - - 200 - text/html;charset=utf-8 1304.1460ms
+2023-01-08 23:12:01.3161|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7185/_framework/aspnetcore-browser-refresh.js - -
+2023-01-08 23:12:01.3332|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7185/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 11.4070ms
+2023-01-08 23:12:01.6324|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7185/swagger/v1/swagger.json - -
+2023-01-08 23:12:01.6324|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-01-08 23:12:01.6324|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-01-08 23:12:01.8471|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7185/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 214.6538ms
+2023-01-08 23:12:20.8102|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7185/api/v1/Catlog/Items - -
+2023-01-08 23:12:20.8102|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/v1/Catlog/Items'
+2023-01-08 23:12:20.8278|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ShoppingApi.Controllers.CatlogController.Items (ShoppingApi)' with route pattern 'api/v1/Catlog/Items' is valid for the request path '/api/v1/Catlog/Items'
+2023-01-08 23:12:20.8278|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ShoppingApi.Controllers.CatlogController.Items (ShoppingApi)'
+2023-01-08 23:12:20.8278|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2023-01-08 23:12:20.9641|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2023-01-08 23:12:20.9641|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ShoppingApi.Controllers.CatlogController.Items (ShoppingApi)'
+2023-01-08 23:12:21.0048|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Items", controller = "Catlog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ShoppingApi.Models.Item]]] Items() on controller ShoppingApi.Controllers.CatlogController (ShoppingApi).
+2023-01-08 23:12:21.0048|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-01-08 23:12:21.0048|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2023-01-08 23:12:21.0048|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-01-08 23:12:21.0048|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-01-08 23:12:21.0048|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-01-08 23:12:21.0048|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ShoppingApi.Controllers.CatlogController (ShoppingApi)
+2023-01-08 23:12:21.3086|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-01-08 23:12:21.3456|INFO|ShoppingApi.Controllers.CatlogController|TEsting this thing
+2023-01-08 23:12:21.3456|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ShoppingApi.Controllers.CatlogController (ShoppingApi)
+2023-01-08 23:12:22.4212|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2023-01-08 23:12:22.5085|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Item>()'
+2023-01-08 23:12:22.8534|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Item>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Item.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Item.BrandId (int) Required, 1], [Property: Item.CatlogId (int) Required, 2], [Property: Item.Cost (int) Required, 3], [Property: Item.ImageUrl (string), 4], [Property: Item.Name (string), 5] }
+        SELECT i.Id, i.BrandId, i.CatlogId, i.Cost, i.ImageUrl, i.Name
+        FROM Items AS i), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Item>, 
+    ShoppingApi.MyDbContext.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-01-08 23:12:22.9263|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-01-08 23:12:22.9263|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-01-08 23:12:23.0027|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (71ms).
+2023-01-08 23:12:23.0152|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (85ms).
+2023-01-08 23:12:23.0152|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (93ms).
+2023-01-08 23:12:23.0152|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'ShoppingWebApp' on server '.'.
+2023-01-08 23:12:23.7156|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'ShoppingWebApp' on server '.'.
+2023-01-08 23:12:23.7156|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[Id], [i].[BrandId], [i].[CatlogId], [i].[Cost], [i].[ImageUrl], [i].[Name]
+FROM [Items] AS [i]
+2023-01-08 23:12:23.7749|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[Id], [i].[BrandId], [i].[CatlogId], [i].[Cost], [i].[ImageUrl], [i].[Name]
+FROM [Items] AS [i]
+2023-01-08 23:12:23.8278|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8530|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8530|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8530|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8530|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ApplicationDbContext' started tracking 'Item' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'ShoppingWebApp' on server '.'.
+2023-01-08 23:12:23.8542|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'ShoppingWebApp' on server '.' is being disposed after spending 86ms reading results.
+2023-01-08 23:12:23.8705|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'ShoppingWebApp' on server '.'.
+2023-01-08 23:12:23.8705|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'ShoppingWebApp' on server '.' (6ms).
+2023-01-08 23:12:23.8705|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-01-08 23:12:23.8705|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2023-01-08 23:12:23.8705|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2023-01-08 23:12:23.8705|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-01-08 23:12:23.8705|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2023-01-08 23:12:23.8863|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-01-08 23:12:23.8863|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ShoppingApi.Models.Item, ShoppingApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-08 23:12:23.9055|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ShoppingApi.Controllers.CatlogController.Items (ShoppingApi) in 2892.0743ms
+2023-01-08 23:12:23.9055|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ShoppingApi.Controllers.CatlogController.Items (ShoppingApi)'
+2023-01-08 23:12:23.9055|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ApplicationDbContext' disposed.
+2023-01-08 23:12:23.9055|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'ShoppingWebApp' on server '.'.
+2023-01-08 23:12:23.9055|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (1ms).
+2023-01-08 23:12:23.9055|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7185/api/v1/Catlog/Items - - - 200 - application/json;+charset=utf-8 3106.5112ms
+2023-01-08 23:13:36.1043|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-01-08 23:13:36.2107|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-01-08 23:13:36.2896|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\purushottam_panchal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-08 23:13:36.2950|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\purushottam_panchal\AppData\Local\ASP.NET\DataProtection-Keys\key-5a4045c4-f8cc-4a49-ab26-be2d8fff4ac9.xml'.
+2023-01-08 23:13:36.2950|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\purushottam_panchal\AppData\Local\ASP.NET\DataProtection-Keys\key-95135481-f094-4196-acf9-eaa32be94114.xml'.
+2023-01-08 23:13:36.2950|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\purushottam_panchal\AppData\Local\ASP.NET\DataProtection-Keys\key-a5c20327-050a-4229-98a4-e660502ed209.xml'.
+2023-01-08 23:13:36.2950|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {5a4045c4-f8cc-4a49-ab26-be2d8fff4ac9}.
+2023-01-08 23:13:36.3097|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {95135481-f094-4196-acf9-eaa32be94114}.
+2023-01-08 23:13:36.3097|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {a5c20327-050a-4229-98a4-e660502ed209}.
+2023-01-08 23:13:36.3097|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {a5c20327-050a-4229-98a4-e660502ed209} with expiration date 2023-01-31 04:54:17Z as default key.
+2023-01-08 23:13:36.3097|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-08 23:13:36.3097|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-01-08 23:13:36.3097|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-01-08 23:13:36.3263|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-01-08 23:13:36.3263|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-01-08 23:13:36.3263|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {a5c20327-050a-4229-98a4-e660502ed209} as the default key.
+2023-01-08 23:13:36.3263|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {a5c20327-050a-4229-98a4-e660502ed209} was loaded during application startup.
+2023-01-08 23:13:36.5468|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 3A1004324A71829377074DD2B0A6E5E060378CEB)
+2023-01-08 23:13:36.6618|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7185
+2023-01-08 23:13:36.6618|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5185
+2023-01-08 23:13:36.6618|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ShoppingApi
+2023-01-08 23:13:36.6618|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-01-08 23:13:36.6618|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-01-08 23:13:36.6618|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-01-08 23:13:36.6618|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-01-08 23:13:36.6618|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\purushottam_panchal\source\repos\ShoppingApi\
+2023-01-08 23:13:36.6618|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-01-08 23:13:37.0182|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNHJVFGCR9C" received FIN.
+2023-01-08 23:13:37.0264|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJVFGCR9C" accepted.
+2023-01-08 23:13:37.0264|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJVFGCR9C" started.
+2023-01-08 23:13:37.0264|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNHJVFGCR9D" received FIN.
+2023-01-08 23:13:37.0264|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJVFGCR9D" accepted.
+2023-01-08 23:13:37.0264|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJVFGCR9D" started.
+2023-01-08 23:13:37.0264|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJVFGCR9E" accepted.
+2023-01-08 23:13:37.0434|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJVFGCR9E" started.
+2023-01-08 23:13:37.0434|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-08 23:13:37.0434|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-08 23:13:37.1088|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMNHJVFGCR9E established using the following protocol: Tls13
+2023-01-08 23:13:37.1289|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJVFGCR9C" stopped.
+2023-01-08 23:13:37.1289|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMNHJVFGCR9D" stopped.
+2023-01-08 23:13:37.1289|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNHJVFGCR9D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-08 23:13:37.1289|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMNHJVFGCR9C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-08 23:13:37.1679|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7185/swagger/index.html - -
+2023-01-08 23:13:37.1985|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-01-08 23:13:37.2213|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-01-08 23:13:37.2213|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-01-08 23:13:37.4326|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-01-08 23:13:37.6237|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-01-08 23:13:37.6237|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7185/swagger/index.html - - - 200 - text/html;charset=utf-8 461.7136ms
+2023-01-08 23:13:37.6237|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7185/_framework/aspnetcore-browser-refresh.js - -
+2023-01-08 23:13:37.6428|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7185/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 9.8434ms
+2023-01-08 23:13:37.8212|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7185/swagger/v1/swagger.json - -
+2023-01-08 23:13:37.8212|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-01-08 23:13:37.8212|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-01-08 23:13:37.9197|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7185/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.5144ms
